@@ -1,0 +1,99 @@
+.footer {
+  height:335px;
+  MARGIN-TOP:123px;
+  .footer__info {
+    display: flex;
+    .footer-info__about-brand {
+      .footer-info__logo {
+        display: flex;
+        align-items: center;
+        color: #222222;
+        font-size: 27px;
+        font-weight: 300;
+        line-height: 32px;
+        text-transform: uppercase;
+        padding-bottom:29px;
+        img {
+          margin-right:13px;
+        }
+        .logo_d {
+          color:$c_pink;
+          font-weight: 400;
+          letter-spacing: 0.68px;
+        }
+      }
+      .footer-info__text {
+        width: 427px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #898989;
+        p {
+          margin-bottom:24px;
+        }
+      }
+    }
+    .footer-info__menus {
+      padding-left:64px;
+      display:flex;
+      .footer-info__menu {
+        h3 {
+          color: #f16d7f;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 26px;
+        }
+        ul {
+          width: 200px;
+          list-style: none;
+          padding: 0px;
+          margin: 0px;
+          padding-top: 42px;
+          li {
+            a {
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 42px;
+              color: #898989;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer-bottom {
+   background-color: #e6e6e6;
+   .container {
+     color: #7a7a7a;
+     font-size: 16px;
+     font-weight: 400;
+     height: 79px;
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+
+     .footer-bottom__social-list {
+       display: flex;
+       .footer-bottom__social-link {
+         background-color: #ffffff;
+         color: #b2b2b2;
+         margin-right:8px;
+         display:block;
+         width: 32px;
+         height: 32px;
+         line-height: 32px;
+         text-align: center;
+         font-size: 16px;
+         font-weight: 400;
+          transition: all ease-in-out 0.3s;
+       }
+       .footer-bottom__social-link:hover {
+         background-color: $c_pink;
+         color: #f7f7f8;
+
+       }
+     }
+   }
+}

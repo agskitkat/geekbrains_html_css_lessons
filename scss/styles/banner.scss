@@ -1,0 +1,29 @@
+.banner {
+  background-color: $c_bg_banner;
+  background-image: url("../img/banner/banner.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  .container {
+    height:613px;
+    display:flex;
+    align-items: center;
+    .banner__text {
+      border-left:12px solid $c_pink;
+      padding-left: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      h3 {
+        font-size: 60px;
+        line-height: 42px;
+        padding-bottom: 21px;
+      }
+      h4 {
+        font-size: 40px;
+        line-height: 30px;
+        span {
+          color: $c_pink;
+        }
+      }
+    }
+  }
+}

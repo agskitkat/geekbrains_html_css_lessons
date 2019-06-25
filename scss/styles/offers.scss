@@ -1,0 +1,40 @@
+.offers {
+  margin-top:98px;
+  display:flex;
+  justify-content: space-between;
+  .offers__col {
+    display:flex;
+    flex-direction: column;
+    .offers__text {
+      font-family: "Lato - Black";
+      padding:16px 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+      background: #FFF;
+      top:26px;
+      position:absolute;
+      z-index: 1;
+      h4 {
+        font-size: 18px;
+      }
+      h3 {
+        font-size: 30px;
+        color:$c_pink;
+      }
+    }
+    .offers__cell_big {
+      width:560px;
+      height:542px;
+      background: $c_offer_bg;
+      position:relative;
+      margin-bottom:20px;
+    }
+    .offers__cell_small {
+      width:560px;
+      height:261px;
+      background: $c_offer_bg;
+      position:relative;
+      margin-bottom:20px;
+    }
+  }
+}

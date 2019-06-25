@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+$c_pink: #f16d7f;
+$c_black: #222;
+$c_borders: #e6e6e6;
+$c_bg_banner: #e8e8e8;
+$c_placeholder: #a4a4a4;
+$c_offer_bg: #dadad2;
+$c_sale_bg: #222224;
+
+.btn {
+
+    background-color: #f16d7f;
+    line-height: 48px;
+    font-size: 15px;
+    color: #ffffff;
+    height:48px;
+    padding-left:24px;
+    padding-right:19px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin-left:9px;
+    }
+}
+
+.container {
+    width:1140px;
+    margin:0 auto;
+}
+
+.menu {
+    list-style: none;
+    height: 51px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import "lib/fontawesome";
+@import "styles/header";
+@import "styles/menu";
+@import "styles/banner";
+@import "styles/offers";
+@import "styles/fetured";
+@import "styles/sale";
+@import "styles/subscribe";
+@import "styles/footer";

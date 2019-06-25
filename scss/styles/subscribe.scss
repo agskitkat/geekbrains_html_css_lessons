@@ -1,0 +1,106 @@
+.subscribe {
+  margin-top:97px;
+  position:relative;
+  height: 438px;
+  background-color: #f2f2f2;
+  .container {
+    height:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    .subscribe__slider {
+      .subscribe__comments {
+        .subscribe__comment {
+          display:flex;
+          .subscribe__img {
+
+            margin-right: 28px;
+            img {
+
+            }
+          }
+          .subscribe__block-text {
+            .comment__text {
+              padding-bottom:19px;
+              max-width: 386px;
+              font-size: 16px;
+              font-style: italic;
+              line-height: 26px;
+              letter-spacing: 0.4px;
+            }
+            .commetn__username {
+              font-size: 16px;
+              font-weight: 700;
+              color: $c_pink;
+            }
+            .comment__address {
+              font-size: 12px;
+              font-weight: 700;
+              line-height: 26px;
+            }
+          }
+        }
+      }
+    }
+
+    .subscribe__form {
+      h3 {
+        font-size: 24px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 10px;
+      }
+      h4 {
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      .subscribe__input-form {
+        padding-top:35px;
+        .subscribe__input {
+          border-top-left-radius: 23px;
+          border-bottom-left-radius: 23px;
+          height: 46px;
+          background-color: #e1e1e1;
+          border:0px;
+          padding:0 28px;
+          width:282px;
+          margin:0px;
+        }
+        .subscribe__input::placeholder {
+          font-size: 14px;
+          font-weight: 400;
+        }
+        .subscribe__button {
+          border-top-right-radius: 23px;
+          border-bottom-right-radius: 23px;
+          height: 46px;
+          background-color: $c_pink;
+          border:0px;
+          margin:0px;
+          padding:0 20px;
+          font-size: 14px;
+          font-weight: 400;
+          color:#FFF;
+          margin-left: -4px;
+        }
+      }
+    }
+  }
+}
+.subscribe:after{
+  content:" ";
+  display: block;
+  position:absolute;
+  background-image: url("../img/sub_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+  width:100%;
+  height:100%;
+  top:0;
+}
