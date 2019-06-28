@@ -3,62 +3,65 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{{ some_title }}</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.min.css">
 </head>
 
 <body>
+
     <header class="header">
-        <div class="container header__row">
-            <div class="header__block">
-                <a href="" class="header__logo">
-                    <img src="img/logo.png" alt="">BRAN<span class="logo_d">D</span>
-                </a>
+    <div class="container header__row">
+        <div class="header__block">
+            <a href="" class="header__logo">
+                <img src="img/logo.png" alt="">BRAN<span class="logo_d">D</span>
+            </a>
 
-                <form action="" class="search">
-                    <div class="search__browse">
-                        Browse<img class="search__arrow" src="img/arrow.png" alt="">
-                        <div class="browse__dropdown">
+            <form action="" class="search">
+                <div class="search__browse">
+                    Browse<img class="search__arrow" src="img/arrow.png" alt="">
+                    <div class="browse__dropdown">
 
-                        </div>
                     </div>
-                    <div class="search__input-holder">
-                        <input type="text" class="search__input" placeholder="Search for Item...">
-                    </div>
-                    <div class="search__button-holder">
-                        <button class="btn search__button">
-                            <img class="btn-img" src="img/search.png">
-                        </button>
-                    </div>
-                </form>
+                </div>
+                <div class="search__input-holder">
+                    <input type="text" class="search__input" placeholder="Search for Item...">
+                </div>
+                <div class="search__button-holder">
+                    <button class="btn search__button">
+                        <img class="btn-img" src="img/search.png">
+                    </button>
+                </div>
+            </form>
 
-            </div>
-            <div class="header__block">
-                <div class="header__cart-block">
+        </div>
+        <div class="header__block">
+            <div class="header__cart-block">
+                <a href="#cart">
                     <img class="header__cart-icon" src="img/cart.svg" alt="">
-                    <div class="header__cart cart">
-                        <div class="cart__dropdown">
-                            <div class="cart__item item">
-                                <img src="" alt="" class="item__img">
-                                <div class="item__info"></div>
-                                <div class="item__close"></div>
-                            </div>
-                            <div class="cart__total">
-                                <span class="cart__label">TOTAL</span>
-                                <span class="cart__sum">$500.00</span>
-                            </div>
-                            <div class="cart__action_checkout">Checkout</div>
-                            <div class="cart__action_go2cart">Go to cart</div>
+                </a>
+                <div class="header__cart cart">
+                    <div class="cart__dropdown">
+                        <div class="cart__item item">
+                            <img src="" alt="" class="item__img">
+                            <div class="item__info"></div>
+                            <div class="item__close"></div>
                         </div>
+                        <div class="cart__total">
+                            <span class="cart__label">TOTAL</span>
+                            <span class="cart__sum">$500.00</span>
+                        </div>
+                        <div class="cart__action_checkout">Checkout</div>
+                        <div class="cart__action_go2cart">Go to cart</div>
                     </div>
                 </div>
-                <div class="header__account-btn">
-                    My Account<img class="account-btn__arrow" src="img/arrow-w.png" alt="">
-                </div>
+            </div>
+            <div class="header__account-btn">
+                My Account<img class="account-btn__arrow" src="img/arrow-w.png" alt="">
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
     <nav>
         <ul class="menu">
@@ -72,16 +75,16 @@
         </ul>
     </nav>
 
-    <div class="banner">
+    <section class="banner">
         <div class="container">
             <div class="banner__text">
                 <h3>THE BRAND</h3>
                 <h4>OF LUXERIOUS <span>FASHION</span></h4>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
+    <section class="container">
         <div class="offers">
 
             <div class="offers__col">
@@ -115,26 +118,25 @@
             </div>
 
         </div>
-    </div>
+    </section>
 
-    <div class="fetured">
+    <section class="fetured">
         <div class="container">
             <h3 class="fetured__hedaer">Fetured Items</h3>
             <p class="fetured__text">Shop for items based on what we featured in this week</p>
-            <div class="fetured__products">
 
-                <div class="fetured__product product">
+            <div class="fetured__products">
+                <article class="fetured__product product">
                     <div class="product__image">
                         <img src="img/goods/Layer_2.png" alt="">
-                        <div class="product__overlay">
-                            <a href="#" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-                        </div>
+
                     </div>
                     <a href="" class="product__name">Mango  People  T-shirt</a>
                     <span class="product_price">$52.00</span>
-                </div>
+                    <a href="#" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
+                </article>
 
-                <div class="fetured__product product">
+                <article class="fetured__product product">
                     <div class="product__image">
                         <img src="img/goods/Layer_3.png" alt="">
                         <div class="product__overlay">
@@ -143,9 +145,9 @@
                     </div>
                     <a href="" class="product__name">Mango  People  T-shirt</a>
                     <span class="product_price">$52.00</span>
-                </div>
+                </article>
 
-                <div class="fetured__product product">
+                <article class="fetured__product product">
                     <div class="product__image">
                         <img src="img/goods/Layer_4.png" alt="">
                         <div class="product__overlay">
@@ -154,9 +156,9 @@
                     </div>
                     <a href="" class="product__name">Mango  People  T-shirt</a>
                     <span class="product_price">$52.00</span>
-                </div>
+                </article>
 
-                <div class="fetured__product product">
+                <article class="fetured__product product">
                     <div class="product__image">
                         <img src="img/goods/Layer_5.png" alt="">
                         <div class="product__overlay">
@@ -165,9 +167,9 @@
                     </div>
                     <a href="" class="product__name">Mango  People  T-shirt</a>
                     <span class="product_price">$52.00</span>
-                </div>
+                </article>
 
-                <div class="fetured__product product">
+                <article class="fetured__product product">
                     <div class="product__image">
                         <img src="img/goods/Layer_6.png" alt="">
                         <div class="product__overlay">
@@ -176,9 +178,9 @@
                     </div>
                     <a href="" class="product__name">Mango  People  T-shirt</a>
                     <span class="product_price">$52.00</span>
-                </div>
+                </article>
 
-                <div class="fetured__product product">
+                <article class="fetured__product product">
                     <div class="product__image">
                         <img src="img/goods/Layer_7.png" alt="">
                         <div class="product__overlay">
@@ -187,9 +189,9 @@
                     </div>
                     <a href="" class="product__name">Mango  People  T-shirt</a>
                     <span class="product_price">$52.00</span>
-                </div>
+                </article>
 
-                <div class="fetured__product product">
+                <article class="fetured__product product">
                     <div class="product__image">
                         <img src="img/goods/Layer_8.png" alt="">
                         <div class="product__overlay">
@@ -198,9 +200,9 @@
                     </div>
                     <a href="" class="product__name">Mango  People  T-shirt</a>
                     <span class="product_price">$52.00</span>
-                </div>
+                </article>
 
-                <div class="fetured__product product">
+                <article class="fetured__product product">
                     <div class="product__image">
                         <img src="img/goods/Layer_9.png" alt="">
                         <div class="product__overlay">
@@ -209,17 +211,16 @@
                     </div>
                     <a href="" class="product__name">Mango  People  T-shirt</a>
                     <span class="product_price">$52.00</span>
-                </div>
+                </article>
 
             </div>
             <div class="fetured__more">
                 <a href="#" class="btn">Browse All Product<img src="img/arrow-left.png"></a>
             </div>
         </div>
-    </div>
+    </section>
 
-
-    <div class="sale container">
+    <section class="sale container">
         <div class="sale__banner" style="background: url('img/banner/women.png')">
             <div class="sale__text">
                 <h3>30% <span class="sale__text_pink">OFFER</span></h3>
@@ -228,7 +229,7 @@
         </div>
         <div class="sale__solutions">
 
-            <div class="sale__solution">
+            <article class="sale__solution">
                 <div class="solution__header">
                     <div class="solution__image">
                         <img src="img/delivery.svg" alt="" class="solution__img">
@@ -236,9 +237,9 @@
                     <h3 class="solution__header">Free Delivery</h3>
                 </div>
                 <p class="solution__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-            </div>
+            </article>
 
-            <div class="sale__solution">
+            <article class="sale__solution">
                 <div class="solution__header">
                     <div class="solution__image">
                         <img src="img/sale.svg" alt="" class="solution__img">
@@ -246,9 +247,9 @@
                     <h3 class="solution__header">Sales & discounts</h3>
                 </div>
                 <p class="solution__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-            </div>
+            </article>
 
-            <div class="sale__solution">
+            <article class="sale__solution">
                 <div class="solution__header">
                     <div class="solution__image">
                         <img src="img/crown.svg" alt="" class="solution__img">
@@ -256,12 +257,12 @@
                     <h3 class="solution__header">Quality assurance</h3>
                 </div>
                 <p class="solution__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-            </div>
+            </article>
 
         </div>
-    </div>
+    </section>
 
-    <div class="subscribe">
+    <section class="subscribe">
         <div class="container">
             <div class="subscribe__slider slider">
                 <div class="subscribe__comments slider__items">
@@ -291,7 +292,7 @@
                 </div>
             </form>
         </div>
-    </div>
+    </section>
 
     <footer>
         <div class="container footer">
@@ -308,7 +309,7 @@
                     </div>
                 </div>
                 <div class="footer-info__menus">
-                    <div class="footer-info__menu">
+                    <nav class="footer-info__menu">
                         <h3>COMPANY</h3>
                         <ul>
                             <li><a href="" class="footer-info__link">Home</a></li>
@@ -317,8 +318,8 @@
                             <li><a href="" class="footer-info__link">How It Works</a></li>
                             <li><a href="" class="footer-info__link">Contact</a></li>
                         </ul>
-                    </div>
-                    <div class="footer-info__menu">
+                    </nav>
+                    <nav class="footer-info__menu">
                         <h3>INFORMATION</h3>
                         <ul>
                             <li><a href="" class="footer-info__link">Tearms & Condition</a></li>
@@ -327,8 +328,8 @@
                             <li><a href="" class="footer-info__link">How to Sell</a></li>
                             <li><a href="" class="footer-info__link">Promotion</a></li>
                         </ul>
-                    </div>
-                    <div class="footer-info__menu">
+                    </nav>
+                    <nav class="footer-info__menu">
                         <h3>SHOP CATEGORY</h3>
                         <ul>
                             <li><a href="" class="footer-info__link">Men</a></li>
@@ -337,7 +338,7 @@
                             <li><a href="" class="footer-info__link">Apparel</a></li>
                             <li><a href="" class="footer-info__link">Brows All</a></li>
                         </ul>
-                    </div>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -354,6 +355,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
