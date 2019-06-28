@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+body {
+
 }
 
 $c_pink: #f16d7f;
@@ -16,9 +16,18 @@ $c_bg_banner: #e8e8e8;
 $c_placeholder: #a4a4a4;
 $c_offer_bg: #dadad2;
 $c_sale_bg: #222224;
+$c_stars: #e4af48;
+
+a{
+    color:$c_black;
+    text-decoration: none;
+    transition: color ease-in-out .2s;
+}
+a:hover {
+    color:$c_pink;
+}
 
 .btn {
-
     background-color: #f16d7f;
     line-height: 48px;
     font-size: 15px;
@@ -32,6 +41,9 @@ $c_sale_bg: #222224;
     img {
         margin-left:9px;
     }
+}
+.btn:hover {
+    color:#FFF;
 }
 
 .container {
