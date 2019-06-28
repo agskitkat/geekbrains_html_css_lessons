@@ -1,10 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>{{ some_title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
 </head>
+
 <body>
-$END$
-</body>
-</html>
+
+<header class="header">
+    <div class="container header__row">
+        <div class="header__block">
+            <a href="" class="header__logo">
+                <img src="img/logo.png" alt="">BRAN<span class="logo_d">D</span>
+            </a>
+
+            <form action="" class="search">
+                <div class="search__browse">
+                    Browse<img class="search__arrow" src="img/arrow.png" alt="">
+                    <div class="browse__dropdown">
+
+                    </div>
+                </div>
+                <div class="search__input-holder">
+                    <input type="text" class="search__input" placeholder="Search for Item...">
+                </div>
+                <div class="search__button-holder">
+                    <button class="btn search__button">
+                        <img class="btn-img" src="img/search.png">
+                    </button>
+                </div>
+            </form>
+
+        </div>
+        <div class="header__block">
+            <div class="header__cart-block">
+                <a href="#cart">
+                    <img class="header__cart-icon" src="img/cart.svg" alt="">
+                </a>
+                <div class="header__cart cart">
+                    <div class="cart__dropdown">
+                        <div class="cart__item item">
+                            <img src="" alt="" class="item__img">
+                            <div class="item__info"></div>
+                            <div class="item__close"></div>
+                        </div>
+                        <div class="cart__total">
+                            <span class="cart__label">TOTAL</span>
+                            <span class="cart__sum">$500.00</span>
+                        </div>
+                        <div class="cart__action_checkout">Checkout</div>
+                        <div class="cart__action_go2cart">Go to cart</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__account-btn">
+                My Account<img class="account-btn__arrow" src="img/arrow-w.png" alt="">
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <ul class="menu">
+        <li><a href="#" class="menu__link">Home</a></li>
+        <li><a href="#" class="menu__link">Man</a></li>
+        <li><a href="#" class="menu__link">Women</a></li>
+        <li><a href="#" class="menu__link">Kids</a></li>
+        <li><a href="#" class="menu__link">Accoseriese</a></li>
+        <li><a href="#" class="menu__link">Featured</a></li>
+        <li><a href="#" class="menu__link">Hot Deals</a></li>
+    </ul>
+</nav>
