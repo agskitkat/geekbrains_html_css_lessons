@@ -1,0 +1,37 @@
+.product__sub-navigations {
+  .product__sub-navigation {
+    margin-bottom:18px;
+    h2 {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 37px;
+      text-transform: uppercase;
+      color: $c_pink;
+      border-bottom: 1px solid $fa-border-color;
+      border-left:5px solid $c_pink;
+      padding-left:16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    ul {
+      padding-top:10px;
+      list-style: none;
+      li {
+        a {
+          line-height: 33px;
+        }
+      }
+    }
+  }
+  .product__sub-navigation.closed {
+    overflow: hidden;
+    height:38px;
+    h2 {
+      color: #6f6e6e;
+      i {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

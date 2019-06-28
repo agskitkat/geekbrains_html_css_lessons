@@ -1,0 +1,11 @@
+.product__layout {
+  display:flex;
+  justify-content: space-between;
+  margin-top:60px;
+  .product__sub-navigations {
+    width:243px;
+  }
+  .product__content {
+    width:846px;
+  }
+}
