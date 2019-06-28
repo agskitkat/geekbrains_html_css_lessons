@@ -101,4 +101,72 @@
   .fetured__more {
     text-align: center;
   }
+
+  .fetured__footer {
+    display: flex;
+    justify-content: space-between;
+
+    .fetured__pagination {
+      padding:0px 15px;
+      border-radius: 3px;
+      border: 1px solid #ebebeb;
+      width: 261px;
+      ul {
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        align-items: center;
+        li {
+          a{
+            font-size: 16px;
+            font-weight: bold;
+            color: #c4c4c4;
+          }
+          a:hover {
+            color:$c_pink;
+          }
+        }
+        li.pagination__page_disabled {
+          a {
+            cursor: no-drop;
+            color: #aaaaaa;
+          }
+        }
+        li.pagination__page_last:before {
+          content: ".....";
+          font-size: 16px;
+          font-weight: bold;
+          color: #c4c4c4;
+        }
+        li.pagination__page_last {
+          margin-left: -16px;
+        }
+        li.pagination__page_current {
+          a {
+            font-size: 16px;
+            font-weight: bold;
+            color: $c_pink;
+          }
+        }
+      }
+    }
+
+    .fetured__view-all {
+      .fetured__view-all-btn {
+        width: 150px;
+        line-height: 44px;
+        border-radius: 3px;
+        border: 1px solid $c_pink;
+        text-align: center;
+        color:$c_pink;
+        padding:15px 45px;
+        transition: background-color ease-in-out .2s;
+      }
+      .fetured__view-all-btn:hover {
+        background: $c_pink;
+        color:#FFF;
+      }
+    }
+  }
 }

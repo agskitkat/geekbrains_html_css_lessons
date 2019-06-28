@@ -5,7 +5,10 @@
   .product__sub-navigations {
     width:243px;
   }
-  .product__content {
+  .product__content-layout {
     width:846px;
+    .fetured {
+      margin-top:50px;
+    }
   }
 }
