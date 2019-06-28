@@ -1,0 +1,67 @@
+.product__filters {
+  color: #6f6e6e;
+  display:flex;
+  justify-content: space-between;
+  .product__filter {
+    width:33.333%;
+    .filter__header {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 14px;
+      text-transform: uppercase;
+      padding-bottom:25px;
+    }
+    .product__filter-trands {
+      width:176px;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      span {
+        color: #dfdfdf;
+      }
+    }
+    .product__filter-size {
+      display:flex;
+      flex-wrap: wrap;
+    }
+    .product__filter-price {
+      position:relative;
+      height: 6px;
+      border-radius: 3px;
+      background-color: #f0f0f0;
+      .price-range__start, .price-range__stop {
+        position:absolute;
+        width: 14px;
+        height: 14px;
+        background-color: $c_pink;
+        border-radius: 50%;
+        top:-4px;
+      }
+      .price-range__progress {
+        position:absolute;
+        background-color: $c_pink;
+        height: 6px;
+        border-radius: 3px;
+        top:0px;
+      }
+    }
+    .product__price-values {
+      padding-top:21px;
+      display:flex;
+      justify-content: space-between;
+      .price-values__min {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+      }
+      .price-values__max {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+      }
+    }
+  }
+}
