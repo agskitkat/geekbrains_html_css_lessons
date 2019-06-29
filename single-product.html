@@ -137,263 +137,161 @@
     </ul>
 </nav>
 
-<section class="banner">
+<div class="navigation">
     <div class="container">
-        <div class="banner__text">
-            <h3>THE BRAND</h3>
-            <h4>OF LUXERIOUS <span>FASHION</span></h4>
+        <h1 class="navigation__header">New Arrivals</h1>
+        <nav class="navigation__breadcrumbs">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Men</a></li>
+                <li><a href="product.html">New Arrivals</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<section class="single__product">
+    <div class="single__product-slider slider">
+        <div class="slider__slides-wrap">
+            <div class="slider__slides single__product-slides">
+                <div class="slider__slide single__product-slide"><img src="img/goods/full/good.png" alt="" class="single__product-image"></div>
+                <div class="slider__slide single__product-slide"><img src="img/goods/full/good.png" alt="" class="single__product-image"></div>
+                <div class="slider__slide single__product-slide"><img src="img/goods/full/good.png" alt="" class="single__product-image"></div>
+            </div>
+        </div>
+        <a href="#preview-slide" class="slider__control slider__control_preview"><i class="fas fa-chevron-left"></i></a>
+        <a href="#pnext-slide" class="slider__control slider__control_next"><i class="fas fa-chevron-right"></i></a>
+    </div>
+    <div class="container single__product-info">
+        <div class="single__product-collection">WOMEN COLLECTION</div>
+        <h2 class="single__product-header">Moschino Cheap And Chic</h2>
+        <div class="single__product-raiting">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="single__product-text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </div>
+        <div class="single__product-header-props">
+            <div class="single__product-header-prop"><span>MATERIAL:</span> COTTON</div>
+            <div class="single__product-header-prop"><span>DESIGNER:</span> BINBURHAN</div>
+        </div>
+        <div class="single__product-price">
+            $561
+        </div>
+        <div class="single__product-add">
+            <div class="single__product-options">
+                <div class="single__product-option">
+                    <h4 class="product-option__header">CHOOSE COLOR</h4>
+                    <div class="input-custom_color">
+                        <div class="input-custom__set-color" style="background-color:#DD0000"></div>
+                        <select class="input-custom" onchange="this.parentNode.querySelector('.input-custom__set-color').setAttribute('style','background-color:'+this.value)">
+                            <option value="#DD0000">Red</option>
+                            <option value="#DDDD00">Yellow</option>
+                            <option value="#000000">Black</option>
+                            <option value="#00DD00">Green</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="single__product-option">
+                    <h4 class="product-option__header">CHOOSE SIZE</h4>
+                    <select class="input-custom">
+                        <option value="">XXS</option>
+                        <option value="">XS</option>
+                        <option value="">S</option>
+                        <option value="">M</option>
+                    </select>
+                </div>
+                <div class="single__product-option">
+                    <h4 class="product-option__header">QUANTITY</h4>
+                    <input type="number" min="1" value="1" class="input-custom" required>
+                </div>
+            </div>
+            <button type="submit" class="single__product-add2cart btn"><img src="img/add2cart_pink.svg" alt="">Add to Cart</button>
         </div>
     </div>
 </section>
 
-<section class="container">
-    <div class="offers">
-
-        <div class="offers__col">
-            <div class="offers__cell_big" style="background: url('img/offer/offer_formen.png')">
-                <div class="offers__text">
-                    <h4>HOT DEAL</h4>
-                    <h3>FOR MEN</h3>
+<section class="single__like-products like-products fetured container">
+    <h3 class="like-products__header">you may like also</h3>
+    <div class="fetured__products">
+        <article class="fetured__product product">
+            <a href="single-product.html" class="product__image">
+                <img src="img/goods/Layer_2.png" alt="">
+            </a>
+            <div class="product__content">
+                <a href="single-product.html" class="product__name">Mango  People  T-shirt</a>
+                <div class="product__price-rating">
+                    <span class="product_price">$52.00</span>
+                    <div class="product__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
             </div>
-            <div class="offers__cell_small" style="background: url('img/offer/accesories.png')">
-                <div class="offers__text">
-                    <h4>LUXIROUS & trendy</h4>
-                    <h3>ACCESORIES</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="offers__col">
-            <div class="offers__cell_small" style="background: url('img/offer/women.png')">
-                <div class="offers__text">
-                    <h4>30% offer</h4>
-                    <h3>women</h3>
-                </div>
-            </div>
-            <div class="offers__cell_big" style="background: url('img/offer/forkids.png')">
-                <div class="offers__text">
-                    <h4>new arrivals</h4>
-                    <h3>FOR kids</h3>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section class="fetured">
-    <div class="container">
-        <h3 class="fetured__hedaer">Fetured Items</h3>
-        <p class="fetured__text">Shop for items based on what we featured in this week</p>
-
-        <div class="fetured__products">
-
-            <article class="fetured__product product">
-                <a href="#good" class="product__image">
-                    <img src="img/goods/Layer_2.png" alt="">
-                </a>
-                <div class="product__content">
-                    <a href="#good" class="product__name">Mango  People  T-shirt</a>
-                    <div class="product__price-rating">
-                        <span class="product_price">$52.00</span>
-                        <div class="product__rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-            </article>
-
-            <article class="fetured__product product">
-                <a href="#good" class="product__image">
-                    <img src="img/goods/Layer_2.png" alt="">
-                </a>
-                <div class="product__content">
-                    <a href="#good" class="product__name">Mango  People  T-shirt</a>
-                    <div class="product__price-rating">
-                        <span class="product_price">$52.00</span>
-                        <div class="product__rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-            </article>
-
-            <article class="fetured__product product">
-                <a href="#good" class="product__image">
-                    <img src="img/goods/Layer_2.png" alt="">
-                </a>
-                <div class="product__content">
-                    <a href="#good" class="product__name">Mango  People  T-shirt</a>
-                    <div class="product__price-rating">
-                        <span class="product_price">$52.00</span>
-                        <div class="product__rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-            </article>
-
-            <article class="fetured__product product">
-                <a href="#good" class="product__image">
-                    <img src="img/goods/Layer_2.png" alt="">
-                </a>
-                <div class="product__content">
-                    <a href="#good" class="product__name">Mango  People  T-shirt</a>
-                    <div class="product__price-rating">
-                        <span class="product_price">$52.00</span>
-                        <div class="product__rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-            </article>
-
-            <article class="fetured__product product">
-                <a href="#good" class="product__image">
-                    <img src="img/goods/Layer_2.png" alt="">
-                </a>
-                <div class="product__content">
-                    <a href="#good" class="product__name">Mango  People  T-shirt</a>
-                    <div class="product__price-rating">
-                        <span class="product_price">$52.00</span>
-                        <div class="product__rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-            </article>
-
-            <article class="fetured__product product">
-                <a href="#good" class="product__image">
-                    <img src="img/goods/Layer_2.png" alt="">
-                </a>
-                <div class="product__content">
-                    <a href="#good" class="product__name">Mango  People  T-shirt</a>
-                    <div class="product__price-rating">
-                        <span class="product_price">$52.00</span>
-                        <div class="product__rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-            </article>
-
-            <article class="fetured__product product">
-                <a href="#good" class="product__image">
-                    <img src="img/goods/Layer_2.png" alt="">
-                </a>
-                <div class="product__content">
-                    <a href="#good" class="product__name">Mango  People  T-shirt</a>
-                    <div class="product__price-rating">
-                        <span class="product_price">$52.00</span>
-                        <div class="product__rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-            </article>
-
-            <article class="fetured__product product">
-                <a href="#good" class="product__image">
-                    <img src="img/goods/Layer_2.png" alt="">
-                </a>
-                <div class="product__content">
-                    <a href="#good" class="product__name">Mango  People  T-shirt</a>
-                    <div class="product__price-rating">
-                        <span class="product_price">$52.00</span>
-                        <div class="product__rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-                <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-            </article>
-        </div>
-        <div class="fetured__more">
-            <a href="product.html" class="btn">Browse All Product<img src="img/arrow-left.png"></a>
-        </div>
-    </div>
-</section>
-
-<section class="sale container">
-    <div class="sale__banner" style="background: url('img/banner/women.png')">
-        <div class="sale__text">
-            <h3>30% <span class="sale__text_pink">OFFER</span></h3>
-            <h4>FOR WOMEN</h4>
-        </div>
-    </div>
-    <div class="sale__solutions">
-
-        <article class="sale__solution">
-            <div class="solution__header">
-                <div class="solution__image">
-                    <img src="img/delivery.svg" alt="" class="solution__img">
-                </div>
-                <h3 class="solution__header">Free Delivery</h3>
-            </div>
-            <p class="solution__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
         </article>
-
-        <article class="sale__solution">
-            <div class="solution__header">
-                <div class="solution__image">
-                    <img src="img/sale.svg" alt="" class="solution__img">
+        <article class="fetured__product product">
+            <a href="single-product.html" class="product__image">
+                <img src="img/goods/Layer_2.png" alt="">
+            </a>
+            <div class="product__content">
+                <a href="single-product.html" class="product__name">Mango  People  T-shirt</a>
+                <div class="product__price-rating">
+                    <span class="product_price">$52.00</span>
+                    <div class="product__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
-                <h3 class="solution__header">Sales & discounts</h3>
             </div>
-            <p class="solution__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
         </article>
-
-        <article class="sale__solution">
-            <div class="solution__header">
-                <div class="solution__image">
-                    <img src="img/crown.svg" alt="" class="solution__img">
+        <article class="fetured__product product">
+            <a href="single-product.html" class="product__image">
+                <img src="img/goods/Layer_2.png" alt="">
+            </a>
+            <div class="product__content">
+                <a href="single-product.html" class="product__name">Mango  People  T-shirt</a>
+                <div class="product__price-rating">
+                    <span class="product_price">$52.00</span>
+                    <div class="product__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
-                <h3 class="solution__header">Quality assurance</h3>
             </div>
-            <p class="solution__text">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+            <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
         </article>
-
+        <article class="fetured__product product">
+            <a href="single-product.html" class="product__image">
+                <img src="img/goods/Layer_2.png" alt="">
+            </a>
+            <div class="product__content">
+                <a href="single-product.html" class="product__name">Mango  People  T-shirt</a>
+                <div class="product__price-rating">
+                    <span class="product_price">$52.00</span>
+                    <div class="product__rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
+        </article>
     </div>
 </section>
 

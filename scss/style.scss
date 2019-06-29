@@ -21,7 +21,7 @@ $c_stars: #e4af48;
 a{
     color:$c_black;
     text-decoration: none;
-    transition: color ease-in-out .2s;
+    transition: color ease-in-out .1s;
 }
 a:hover {
     color:$c_pink;
@@ -59,8 +59,45 @@ a:hover {
     align-items: center;
 }
 
+
+.input-custom {
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #bcbcbc;
+    padding:0px 10px;
+}
+.input-custom::placeholder {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #bcbcbc;
+}
+.input-custom_color {
+    position:relative;
+    .input-custom {
+        padding-left:30px;
+    }
+}
+.input-custom_color .input-custom__set-color{
+    position:absolute;
+    top: 28px;
+    left: 16px;
+    content:'';
+    display:block;
+    width:12px;
+    height:12px;
+    background-color: #2f2f2f;
+}
+
 @import "lib/fontawesome";
 @import "styles/header";
+@import "styles/dropdown";
 @import "styles/menu";
 @import "styles/banner";
 @import "styles/offers";
@@ -70,9 +107,15 @@ a:hover {
 @import "styles/footer";
 @import "styles/style_checkbox";
 
+@import "styles/slider";
+
 @import "styles/product_navigation";
 @import "styles/product__layout";
 @import "styles/product__sub-navigations";
 @import "styles/product__filters";
 @import "styles/product__sorts";
 @import "styles/product__lead";
+
+
+@import "styles/single__like-products";
+@import "styles/single__product";

@@ -95,7 +95,10 @@
        .footer-bottom__social-link:hover {
          background-color: $c_pink;
          color: #f7f7f8;
-
+       }
+       .footer-bottom__social-link.disabled {
+         opacity: 0.5;
+         pointer:nodrop;
        }
      }
    }
