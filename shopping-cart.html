@@ -150,150 +150,164 @@
     </div>
 </div>
 
-<section class="single__product">
-    <div class="single__product-slider slider">
-        <div class="slider__slides-wrap">
-            <div class="slider__slides single__product-slides">
-                <div class="slider__slide single__product-slide"><img src="img/goods/full/good.png" alt="" class="single__product-image"></div>
-                <div class="slider__slide single__product-slide"><img src="img/goods/full/good.png" alt="" class="single__product-image"></div>
-                <div class="slider__slide single__product-slide"><img src="img/goods/full/good.png" alt="" class="single__product-image"></div>
-            </div>
-        </div>
-        <a href="#preview-slide" class="slider__control slider__control_preview"><i class="fas fa-chevron-left"></i></a>
-        <a href="#pnext-slide" class="slider__control slider__control_next"><i class="fas fa-chevron-right"></i></a>
+<div class="shopping-cart container">
+    <div class="shopping-cart__row shopping-cart__row_header">
+        <div class="shopping-cart__header">Product Details</div>
+        <div class="shopping-cart__header">unite Price</div>
+        <div class="shopping-cart__header">Quantity</div>
+        <div class="shopping-cart__header">shipping	</div>
+        <div class="shopping-cart__header">Subtotal</div>
+        <div class="shopping-cart__header">ACTION</div>
     </div>
-    <div class="container single__product-info">
-        <div class="single__product-collection">WOMEN COLLECTION</div>
-        <h2 class="single__product-header">Moschino Cheap And Chic</h2>
-        <div class="single__product-raiting">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-        </div>
-        <div class="single__product-text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </div>
-        <div class="single__product-header-props">
-            <div class="single__product-header-prop"><span>MATERIAL:</span> COTTON</div>
-            <div class="single__product-header-prop"><span>DESIGNER:</span> BINBURHAN</div>
-        </div>
-        <div class="single__product-price">
-            $561
-        </div>
-        <div class="single__product-add">
-            <div class="single__product-options">
-                <div class="single__product-option">
-                    <h4 class="product-option__header">CHOOSE COLOR</h4>
-                    <div class="input-custom_color">
-                        <div class="input-custom__set-color" style="background-color:#DD0000"></div>
-                        <select class="input-custom" onchange="this.parentNode.querySelector('.input-custom__set-color').setAttribute('style','background-color:'+this.value)">
-                            <option value="#DD0000">Red</option>
-                            <option value="#DDDD00">Yellow</option>
-                            <option value="#000000">Black</option>
-                            <option value="#00DD00">Green</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="single__product-option ">
-                    <h4 class="product-option__header">CHOOSE SIZE</h4>
-                    <select class="input-custom">
-                        <option value="">XXS</option>
-                        <option value="">XS</option>
-                        <option value="">S</option>
-                        <option value="">M</option>
-                    </select>
-                </div>
-                <div class="single__product-option">
-                    <h4 class="product-option__header">QUANTITY</h4>
-                    <input type="number" min="1" value="1" class="input-custom" required>
-                </div>
-            </div>
-            <button type="submit" class="single__product-add2cart btn"><img src="img/add2cart_pink.svg" alt="">Add to Cart</button>
-        </div>
-    </div>
-</section>
 
-<section class="single__like-products like-products fetured container">
-    <h3 class="like-products__header">you may like also</h3>
-    <div class="fetured__products">
-        <article class="fetured__product product">
-            <a href="single-product.html" class="product__image">
-                <img src="img/goods/Layer_2.png" alt="">
+    <div class="shopping-cart__row shopping-cart__row_item">
+        <div class="shopping-cart__item-info">
+            <a href="single-product.html">
+                <img class="item-info__image" src="img/goods/cart/1.png">
             </a>
-            <div class="product__content">
-                <a href="single-product.html" class="product__name">Mango  People  T-shirt</a>
-                <div class="product__price-rating">
-                    <span class="product_price">$52.00</span>
-                    <div class="product__rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+            <div class="item-info__text-block">
+                <a href="single-product.html" class="item-info__name">Mango  People  T-shirt</a>
+                <div class="item-info__props">
+                    <div class="item-info__prop">
+                        <span class="item-info__prop_value">Color:</span>
+                        <span class="item-info__prop_key">Red</span>
+                    </div>
+                    <div class="item-info__prop">
+                        <span class="item-info__prop_value">Size:</span>
+                        <span class="item-info__prop_key">Xll</span>
                     </div>
                 </div>
             </div>
-            <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-        </article>
-        <article class="fetured__product product">
-            <a href="single-product.html" class="product__image">
-                <img src="img/goods/Layer_2.png" alt="">
-            </a>
-            <div class="product__content">
-                <a href="single-product.html" class="product__name">Mango  People  T-shirt</a>
-                <div class="product__price-rating">
-                    <span class="product_price">$52.00</span>
-                    <div class="product__rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-        </article>
-        <article class="fetured__product product">
-            <a href="single-product.html" class="product__image">
-                <img src="img/goods/Layer_2.png" alt="">
-            </a>
-            <div class="product__content">
-                <a href="single-product.html" class="product__name">Mango  People  T-shirt</a>
-                <div class="product__price-rating">
-                    <span class="product_price">$52.00</span>
-                    <div class="product__rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-        </article>
-        <article class="fetured__product product">
-            <a href="single-product.html" class="product__image">
-                <img src="img/goods/Layer_2.png" alt="">
-            </a>
-            <div class="product__content">
-                <a href="single-product.html" class="product__name">Mango  People  T-shirt</a>
-                <div class="product__price-rating">
-                    <span class="product_price">$52.00</span>
-                    <div class="product__rating">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                </div>
-            </div>
-            <a href="#add2cart" class="product__add2cart"><img src="img/add2cart.svg" alt="">Add to Cart</a>
-        </article>
+        </div>
+        <div class="shopping-cart__item-unit">
+            $150
+        </div>
+        <div class="shopping-cart__item-quantity">
+            <input type="number" min="1" value="1" class="input-custom" required>
+        </div>
+        <div class="shopping-cart__item-shipping">
+            FREE
+        </div>
+        <div class="shopping-cart__item-subtotal">
+            $300
+        </div>
+        <div class="shopping-cart__item-action">
+            <a href="#remove-item-ID"><i class="fas fa-times-circle"></i></a>
+        </div>
     </div>
-</section>
+
+    <div class="shopping-cart__row shopping-cart__row_item">
+        <div class="shopping-cart__item-info">
+            <a href="single-product.html">
+                <img class="item-info__image" src="img/goods/cart/1.png">
+            </a>
+            <div class="item-info__text-block">
+                <a href="single-product.html" class="item-info__name">Mango  People  T-shirt</a>
+                <div class="item-info__props">
+                    <div class="item-info__prop">
+                        <span class="item-info__prop_value">Color:</span>
+                        <span class="item-info__prop_key">Red</span>
+                    </div>
+                    <div class="item-info__prop">
+                        <span class="item-info__prop_value">Size:</span>
+                        <span class="item-info__prop_key">Xll</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shopping-cart__item-unit">
+            $150
+        </div>
+        <div class="shopping-cart__item-quantity">
+            <input type="number" min="1" value="1" class="input-custom" required>
+        </div>
+        <div class="shopping-cart__item-shipping">
+            FREE
+        </div>
+        <div class="shopping-cart__item-subtotal">
+            $300
+        </div>
+        <div class="shopping-cart__item-action">
+            <a href="#remove-item-ID"><i class="fas fa-times-circle"></i></a>
+        </div>
+    </div>
+
+    <div class="shopping-cart__row shopping-cart__row_item">
+        <div class="shopping-cart__item-info">
+            <a href="single-product.html">
+                <img class="item-info__image" src="img/goods/cart/1.png">
+            </a>
+            <div class="item-info__text-block">
+                <a href="single-product.html" class="item-info__name">Mango  People  T-shirt</a>
+                <div class="item-info__props">
+                    <div class="item-info__prop">
+                        <span class="item-info__prop_value">Color:</span>
+                        <span class="item-info__prop_key">Red</span>
+                    </div>
+                    <div class="item-info__prop">
+                        <span class="item-info__prop_value">Size:</span>
+                        <span class="item-info__prop_key">Xll</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shopping-cart__item-unit">
+            $150
+        </div>
+        <div class="shopping-cart__item-quantity">
+            <input type="number" min="1" value="1" class="input-custom" required>
+        </div>
+        <div class="shopping-cart__item-shipping">
+            FREE
+        </div>
+        <div class="shopping-cart__item-subtotal">
+            $300
+        </div>
+        <div class="shopping-cart__item-action">
+            <a href="#remove-item-ID"><i class="fas fa-times-circle"></i></a>
+        </div>
+    </div>
+
+</div>
+
+<div class="cart-control container">
+    <a href="#clear-cart" class="btn btn-w">cLEAR SHOPPING CART</a>
+    <a href="product.html" class="btn btn-w">cONTINUE sHOPPING</a>
+</div>
+
+<div class="cart-summary container">
+    <div class="cart-summary__address">
+        <h4 class="cart-summary__header">Shipping Adress</h4>
+        <select class="input-custom">
+            <option value="">Bangladesh</option>
+            <option value="">Bangladesh</option>
+            <option value="">Bangladesh</option>
+            <option value="">Bangladesh</option>
+        </select>
+        <input class="input-custom" type="text" placeholder="State" required>
+        <input class="input-custom" type="text" placeholder="Postcode / Zip" required>
+        <a href="#get-a-quote" class="btn btn-w btn-small">get a quote</a>
+    </div>
+    <div class="cart-summary__coupon">
+        <h4 class="cart-summary__header">coupon  discount</h4>
+        <p class="cart-summary__i-text">Enter your coupon code if you have one</p>
+        <input class="input-custom" type="text" placeholder="Coupon" required>
+        <a href="#get-a-quote" class="btn btn-w btn-small">Apply coupon</a>
+    </div>
+    <div class="cart-summary__checkout-wrap">
+        <div class="cart-summary__checkout">
+            <div class="cart-summary__total">
+                <div class="cart-summary__checkout-sub">
+                    <span>Sub total</span>$900
+                </div>
+                <div class="cart-summary__checkout-grand">
+                    <span>GRAND TOTAL</span>$900
+                </div>
+            </div>
+            <a href="#checkout-process" class="cart-summary__checkout-process btn">proceed to checkout</a>
+        </div>
+    </div>
+</div>
 
 <section class="subscribe">
     <div class="container">

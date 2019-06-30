@@ -46,6 +46,30 @@ a:hover {
     color:#FFF;
 }
 
+.btn.btn-w {
+    color: #4a4a4a;
+    border: 1px solid #eaeaea;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #FFF;
+    transition: all ease-in-out 0.1s;
+}
+
+.btn.btn-w:hover {
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
+}
+
+.btn.btn-small {
+    height: 35px;
+    padding: 12px 12px;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
 .container {
     width:1140px;
     margin:0 auto;
@@ -119,3 +143,7 @@ a:hover {
 
 @import "styles/single__like-products";
 @import "styles/single__product";
+
+
+
+@import "styles/shopping-cart";
