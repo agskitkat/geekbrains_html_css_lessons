@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ some_title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container header__row">
+        <div class="header__block">
+            <a href="index.html" class="header__logo">
+                <img src="img/logo.png" alt="">BRAN<span class="logo_d">D</span>
+            </a>
+
+            <form action="" class="search">
+                <div class="search__browse">
+                    Browse<img class="search__arrow" src="img/arrow.png" alt="">
+                    <div class="dropdown">
+                        <nav>
+                            <h3>Women</h3>
+                            <ul>
+                                <li><a href="product.html">Dresses</a></li>
+                                <li><a href="product.html">Tops</a></li>
+                                <li><a href="product.html">Sweaters/Knits</a></li>
+                                <li><a href="product.html">Jackets/Coats</a></li>
+                                <li><a href="product.html">Blazers</a></li>
+                                <li><a href="product.html">Denim</a></li>
+                                <li><a href="product.html">Leggings/Pants</a></li>
+                                <li><a href="product.html">Skirts/Shorts</a></li>
+                                <li><a href="product.html">Accessories</a></li>
+                            </ul>
+                            <h3>Men</h3>
+                            <ul>
+                                <li><a href="product.html">Tees/Tank tops</a></li>
+                                <li><a href="product.html">Shirts/Polos</a></li>
+                                <li><a href="product.html">Sweaters</a></li>
+                                <li><a href="product.html">Sweatshirts/Hoodies</a></li>
+                                <li><a href="product.html">Blazers</a></li>
+                                <li><a href="product.html">Jackets/vests</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="search__input-holder">
+                    <input type="text" class="search__input" placeholder="Search for Item...">
+                </div>
+                <div class="search__button-holder">
+                    <button class="btn search__button">
+                        <img class="btn-img" src="img/search.png">
+                    </button>
+                </div>
+            </form>
+
+        </div>
+        <div class="header__block">
+            <div class="header__cart-block">
+                <a href="shopping-cart.html">
+                    <img class="header__cart-icon" src="img/cart.svg" alt="">
+                </a>
+                <div class="header__cart cart">
+                    <div class="cart__dropdown">
+                        <div class="cart__item item">
+                            <img src="" alt="" class="item__img">
+                            <div class="item__info"></div>
+                            <div class="item__close"></div>
+                        </div>
+                        <div class="cart__total">
+                            <span class="cart__label">TOTAL</span>
+                            <span class="cart__sum">$500.00</span>
+                        </div>
+                        <div class="cart__action_checkout">Checkout</div>
+                        <div class="cart__action_go2cart">Go to cart</div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__account-btn">
+                My Account<img class="account-btn__arrow" src="img/arrow-w.png" alt="">
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <ul class="menu">
+        <li class="menu_list"><a href="index.html" class="menu__link">Home</a></li>
+        <li class="menu_list">
+            <a href="product.html" class="menu__link">Man</a>
+            <div class="dropdown">
+                <nav class="dropdown__container">
+                    <div class="dropdown__col">
+                        <h3>Women</h3>
+                        <ul>
+                            <li><a href="product.html">Dresses</a></li>
+                            <li><a href="product.html">Tops</a></li>
+                            <li><a href="product.html">Sweaters/Knits</a></li>
+                            <li><a href="product.html">Jackets/Coats</a></li>
+                            <li><a href="product.html">Blazers</a></li>
+                            <li><a href="product.html">Denim</a></li>
+                            <li><a href="product.html">Leggings/Pants</a></li>
+                            <li><a href="product.html">Skirts/Shorts</a></li>
+                            <li><a href="product.html">Accessories</a></li>
+                        </ul>
+                        <h3>Men</h3>
+                        <ul>
+                            <li><a href="product.html">Tees/Tank tops</a></li>
+                            <li><a href="product.html">Shirts/Polos</a></li>
+                            <li><a href="product.html">Sweaters</a></li>
+                            <li><a href="product.html">Sweatshirts/Hoodies</a></li>
+                            <li><a href="product.html">Blazers</a></li>
+                            <li><a href="product.html">Jackets/vests</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown__col">
+                        <h3>Men</h3>
+                        <ul>
+                            <li><a href="product.html">Tees/Tank tops</a></li>
+                            <li><a href="product.html">Shirts/Polos</a></li>
+                            <li><a href="product.html">Sweaters</a></li>
+                            <li><a href="product.html">Sweatshirts/Hoodies</a></li>
+                            <li><a href="product.html">Blazers</a></li>
+                            <li><a href="product.html">Jackets/vests</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </li>
+        <li class="menu_list"><a href="product.html" class="menu__link">Women</a></li>
+        <li class="menu_list"><a href="product.html" class="menu__link">Kids</a></li>
+        <li class="menu_list"><a href="product.html" class="menu__link">Accoseriese</a></li>
+        <li class="menu_list"><a href="product.html" class="menu__link">Featured</a></li>
+        <li class="menu_list"><a href="product.html" class="menu__link">Hot Deals</a></li>
+    </ul>
+</nav>
+
+<div class="navigation">
+    <div class="container">
+        <h1 class="navigation__header">New Arrivals</h1>
+        <nav class="navigation__breadcrumbs">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Men</a></li>
+                <li><a href="product.html">New Arrivals</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<div class="checkout container tabs">
+    <div class="checkout__tab tab active">
+        <h3 class="checkout__header tab-header">01.   Shipping Adress</h3>
+        <div class="user__block tab-content">
+
+            <div class="user__reg">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Check as a guest or register</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+
+                <fieldset class="radio">
+                    <label class="container_radio">checkout as guest
+                        <input type="radio" name="GUEST_OR_REGISTER[]">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container_radio">register
+                        <input type="radio" name="GUEST_OR_REGISTER[]" checked="checked" checked>
+                        <span class="checkmark"></span>
+                    </label>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">register and save time!</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+                <div class="checkout__text-block">
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                </div>
+
+                <a href="#continue" class="btn btn-w">Continue</a>
+
+
+            </div>
+            <form class="user__login">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Already registed?</h4>
+                    <p class="checkout__text">Please log in below</p>
+                </div>
+
+                <fieldset class="fieldset-custom">
+                    <label>EMAIL ADDRESS <span class="required">*</span></label>
+                    <input class="input-custom" type="email" placeholder="" required>
+                </fieldset>
+
+                <fieldset class="fieldset-custom">
+                    <label>PASSWORD <span class="required">*</span></label>
+                    <input class="input-custom" type="password" placeholder="" required>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <p class="required">* Required Fields</p>
+                </div>
+
+                <div class="user__action">
+                    <button type="submit" class="btn btn-w">Log in</button>
+                    <a href="#forgot">Forgot Password ?</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="checkout__tab tab">
+        <h3 class="checkout__header tab-header">02.   BILLING INFORMATION</h3>
+        <div class="user__block tab-content">
+
+            <div class="user__reg">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Check as a guest or register</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+
+                <fieldset class="radio">
+                    <label class="container_radio">checkout as guest
+                        <input type="radio" name="GUEST_OR_REGISTER">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container_radio">register
+                        <input type="radio" name="GUEST_OR_REGISTER" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">register and save time!</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+                <div class="checkout__text-block">
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                </div>
+
+                <a href="#continue" class="btn btn-w">Continue</a>
+
+
+            </div>
+            <form class="user__login">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Already registed?</h4>
+                    <p class="checkout__text">Please log in below</p>
+                </div>
+
+                <fieldset class="fieldset-custom">
+                    <label>EMAIL ADDRESS <span class="required">*</span></label>
+                    <input class="input-custom" type="email" placeholder="" required>
+                </fieldset>
+
+                <fieldset class="fieldset-custom">
+                    <label>PASSWORD <span class="required">*</span></label>
+                    <input class="input-custom" type="password" placeholder="" required>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <p class="required">* Required Fields</p>
+                </div>
+
+                <div class="user__action">
+                    <button type="submit" class="btn btn-w">Log in</button>
+                    <a href="#forgot">Forgot Password ?</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="checkout__tab tab">
+        <h3 class="checkout__header tab-header">03.   SHIPPING INFORMATION</h3>
+        <div class="user__block tab-content">
+
+            <div class="user__reg">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Check as a guest or register</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+
+                <fieldset class="radio">
+                    <label class="container_radio">checkout as guest
+                        <input type="radio" name="GUEST_OR_REGISTER">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container_radio">register
+                        <input type="radio" name="GUEST_OR_REGISTER" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">register and save time!</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+                <div class="checkout__text-block">
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                </div>
+
+                <a href="#continue" class="btn btn-w">Continue</a>
+
+
+            </div>
+            <form class="user__login">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Already registed?</h4>
+                    <p class="checkout__text">Please log in below</p>
+                </div>
+
+                <fieldset class="fieldset-custom">
+                    <label>EMAIL ADDRESS <span class="required">*</span></label>
+                    <input class="input-custom" type="email" placeholder="" required>
+                </fieldset>
+
+                <fieldset class="fieldset-custom">
+                    <label>PASSWORD <span class="required">*</span></label>
+                    <input class="input-custom" type="password" placeholder="" required>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <p class="required">* Required Fields</p>
+                </div>
+
+                <div class="user__action">
+                    <button type="submit" class="btn btn-w">Log in</button>
+                    <a href="#forgot">Forgot Password ?</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="checkout__tab tab">
+        <h3 class="checkout__header tab-header">04.   SHIPPING METHOD</h3>
+        <div class="user__block tab-content">
+
+            <div class="user__reg">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Check as a guest or register</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+
+                <fieldset class="radio">
+                    <label class="container_radio">checkout as guest
+                        <input type="radio" name="GUEST_OR_REGISTER">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container_radio">register
+                        <input type="radio" name="GUEST_OR_REGISTER" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">register and save time!</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+                <div class="checkout__text-block">
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                </div>
+
+                <a href="#continue" class="btn btn-w">Continue</a>
+
+
+            </div>
+            <form class="user__login">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Already registed?</h4>
+                    <p class="checkout__text">Please log in below</p>
+                </div>
+
+                <fieldset class="fieldset-custom">
+                    <label>EMAIL ADDRESS <span class="required">*</span></label>
+                    <input class="input-custom" type="email" placeholder="" required>
+                </fieldset>
+
+                <fieldset class="fieldset-custom">
+                    <label>PASSWORD <span class="required">*</span></label>
+                    <input class="input-custom" type="password" placeholder="" required>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <p class="required">* Required Fields</p>
+                </div>
+
+                <div class="user__action">
+                    <button type="submit" class="btn btn-w">Log in</button>
+                    <a href="#forgot">Forgot Password ?</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="checkout__tab tab">
+        <h3 class="checkout__header tab-header">05.   PAYMENT METHOD</h3>
+        <div class="user__block tab-content">
+
+            <div class="user__reg">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Check as a guest or register</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+
+                <fieldset class="radio">
+                    <label class="container_radio">checkout as guest
+                        <input type="radio" name="GUEST_OR_REGISTER">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container_radio">register
+                        <input type="radio" name="GUEST_OR_REGISTER" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">register and save time!</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+                <div class="checkout__text-block">
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                </div>
+
+                <a href="#continue" class="btn btn-w">Continue</a>
+
+
+            </div>
+            <form class="user__login">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Already registed?</h4>
+                    <p class="checkout__text">Please log in below</p>
+                </div>
+
+                <fieldset class="fieldset-custom">
+                    <label>EMAIL ADDRESS <span class="required">*</span></label>
+                    <input class="input-custom" type="email" placeholder="" required>
+                </fieldset>
+
+                <fieldset class="fieldset-custom">
+                    <label>PASSWORD <span class="required">*</span></label>
+                    <input class="input-custom" type="password" placeholder="" required>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <p class="required">* Required Fields</p>
+                </div>
+
+                <div class="user__action">
+                    <button type="submit" class="btn btn-w">Log in</button>
+                    <a href="#forgot">Forgot Password ?</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <div class="checkout__tab tab">
+        <h3 class="checkout__header tab-header">06.   ORDER REVIEW</h3>
+        <div class="user__block tab-content">
+
+            <div class="user__reg">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Check as a guest or register</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+
+                <fieldset class="radio">
+                    <label class="container_radio">checkout as guest
+                        <input type="radio" name="GUEST_OR_REGISTER">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container_radio">register
+                        <input type="radio" name="GUEST_OR_REGISTER" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">register and save time!</h4>
+                    <p class="checkout__text">Register with us for future convenience</p>
+                </div>
+
+                <div class="checkout__text-block">
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                    <p class="checkout__text"><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                </div>
+
+                <a href="#continue" class="btn btn-w">Continue</a>
+
+
+            </div>
+            <form class="user__login">
+                <div class="checkout__text-block">
+                    <h4 class="checkout__header_sub">Already registed?</h4>
+                    <p class="checkout__text">Please log in below</p>
+                </div>
+
+                <fieldset class="fieldset-custom">
+                    <label>EMAIL ADDRESS <span class="required">*</span></label>
+                    <input class="input-custom" type="email" placeholder="" required>
+                </fieldset>
+
+                <fieldset class="fieldset-custom">
+                    <label>PASSWORD <span class="required">*</span></label>
+                    <input class="input-custom" type="password" placeholder="" required>
+                </fieldset>
+
+                <div class="checkout__text-block">
+                    <p class="required">* Required Fields</p>
+                </div>
+
+                <div class="user__action">
+                    <button type="submit" class="btn btn-w">Log in</button>
+                    <a href="#forgot">Forgot Password ?</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<section class="subscribe">
+    <div class="container">
+        <div class="subscribe__slider slider">
+            <div class="subscribe__comments slider__items">
+                <div class="subscribe__comment">
+                    <div class="subscribe__img">
+                        <img src="img/user.png" alt="" class="comment__userpic">
+                    </div>
+                    <div class="subscribe__block-text">
+                        <p class="comment__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                        <p class="commetn__username">Bin Burhan</p>
+                        <p class="comment__address">Dhaka, Bd</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__control-dot">
+                <div class="slider__chooser active"></div>
+                <div class="slider__chooser"></div>
+                <div class="slider__chooser"></div>
+            </div>
+        </div>
+        <form action="" class="subscribe__form">
+            <h3>Subscribe</h3>
+            <h4>FOR OUR NEWLETTER AND PROMOTION</h4>
+            <div class="subscribe__input-form">
+                <input type="email" class="subscribe__input" placeholder="Enter Your Email" required>
+                <button class="subscribe__button">Subscribe</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container footer">
+        <div class="footer__info">
+            <div class="footer-info__about-brand">
+                <a href="index.html" class="footer-info__logo">
+                    <img src="img/logo.png" alt="">BRAN<span class="logo_d">D</span>
+                </a>
+                <div class="footer-info__text">
+
+                    <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+
+                    <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                </div>
+            </div>
+            <div class="footer-info__menus">
+                <nav class="footer-info__menu">
+                    <h3>COMPANY</h3>
+                    <ul>
+                        <li><a href="" class="footer-info__link">Home</a></li>
+                        <li><a href="" class="footer-info__link">Shop</a></li>
+                        <li><a href="" class="footer-info__link">About</a></li>
+                        <li><a href="" class="footer-info__link">How It Works</a></li>
+                        <li><a href="" class="footer-info__link">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-info__menu">
+                    <h3>INFORMATION</h3>
+                    <ul>
+                        <li><a href="" class="footer-info__link">Tearms & Condition</a></li>
+                        <li><a href="" class="footer-info__link">Privacy Policy</a></li>
+                        <li><a href="" class="footer-info__link">How to Buy</a></li>
+                        <li><a href="" class="footer-info__link">How to Sell</a></li>
+                        <li><a href="" class="footer-info__link">Promotion</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-info__menu">
+                    <h3>SHOP CATEGORY</h3>
+                    <ul>
+                        <li><a href="" class="footer-info__link">Men</a></li>
+                        <li><a href="" class="footer-info__link">Women</a></li>
+                        <li><a href="" class="footer-info__link">Child</a></li>
+                        <li><a href="" class="footer-info__link">Apparel</a></li>
+                        <li><a href="" class="footer-info__link">Brows All</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom__copyright">© 2017 Brand All Rights Reserved.</div>
+            <div class="footer-bottom__social-list">
+                <a href="#" class="footer-bottom__social-link"><span class="fab fa-facebook-f"></span></a>
+                <a href="#" class="footer-bottom__social-link"><span class="fab fa-twitter"></span></a>
+                <a href="#" class="footer-bottom__social-link"><span class="fab fa-linkedin-in"></span></a>
+                <a href="#" class="footer-bottom__social-link"><span class="fab fa-pinterest-p"></span></a>
+                <a href="#" class="footer-bottom__social-link"><span class="fab fa-google-plus-g"></span></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
