@@ -22,19 +22,22 @@
         color:$c_pink;
       }
     }
+    .offers__cell {
+      background-color: $c_offer_bg;
+      position:relative;
+      margin-bottom:20px;
+      transition: color ease .2s;
+    }
+    .offers__cell:hover {
+
+    }
     .offers__cell_big {
       width:560px;
       height:542px;
-      background: $c_offer_bg;
-      position:relative;
-      margin-bottom:20px;
     }
     .offers__cell_small {
       width:560px;
       height:261px;
-      background: $c_offer_bg;
-      position:relative;
-      margin-bottom:20px;
     }
   }
 }

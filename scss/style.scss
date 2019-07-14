@@ -33,6 +33,7 @@ a:hover {
 }
 
 .btn {
+    cursor: pointer;
     background-color: #f16d7f;
     line-height: 48px;
     font-size: 15px;
@@ -43,12 +44,15 @@ a:hover {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    border:1px solid #f16d7f;
+    transition: all ease 0.2s;
     img {
         margin-left:9px;
     }
 }
 .btn:hover {
-    color:#FFF;
+    color:#f16d7f;
+    background-color: #FFF;
 }
 
 .btn.btn-w {

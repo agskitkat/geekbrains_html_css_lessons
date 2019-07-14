@@ -60,6 +60,8 @@
       }
       .subscribe__input-form {
         padding-top:35px;
+        display: flex;
+        align-items: center;
         .subscribe__input {
           border-top-left-radius: 23px;
           border-bottom-left-radius: 23px;
@@ -79,13 +81,17 @@
           border-bottom-right-radius: 23px;
           height: 46px;
           background-color: $c_pink;
-          border:0px;
+          border:1px solid $c_pink;
           margin:0px;
           padding:0 20px;
           font-size: 14px;
           font-weight: 400;
           color:#FFF;
           margin-left: -4px;
+        }
+        .subscribe__button:hover {
+          color:$c_pink;
+          background-color: #FFF;
         }
       }
     }
