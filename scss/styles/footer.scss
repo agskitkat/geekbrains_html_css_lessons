@@ -56,6 +56,9 @@
               line-height: 42px;
               color: #898989;
             }
+            a:hover {
+              color: $c_pink;
+            }
           }
         }
       }
@@ -92,7 +95,10 @@
        .footer-bottom__social-link:hover {
          background-color: $c_pink;
          color: #f7f7f8;
-
+       }
+       .footer-bottom__social-link.disabled {
+         opacity: 0.5;
+         pointer:nodrop;
        }
      }
    }

@@ -1,0 +1,30 @@
+.product__lead {
+  margin-top:110px;
+  background-color: $c_sale_bg;
+  .sale__solutions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 340px;
+    .sale__solution {
+      max-width: 310px;
+      text-align: center;
+      .solution__header {
+        .solution__image {
+          padding-bottom: 23px;
+        }
+        .solution__header {
+          color: #fbfbfb;
+          font-size: 20px;
+          font-weight: 700;
+          padding-bottom: 20px;
+        }
+      }
+      .solution__text {
+        font-size: 14px;
+        font-weight: 300;
+        color: #fbfbfb;
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+//= units/header.html
+
+//= units/navigation.html
+
+<section class="single__product">
+    <div class="single__product-slider slider">
+        <div class="slider__slides-wrap">
+            <div class="slider__slides single__product-slides">
+                <div class="slider__slide single__product-slide"><img src="img/goods/full/good.png" alt="" class="single__product-image"></div>
+                <div class="slider__slide single__product-slide"><img src="img/goods/full/good.png" alt="" class="single__product-image"></div>
+                <div class="slider__slide single__product-slide"><img src="img/goods/full/good.png" alt="" class="single__product-image"></div>
+            </div>
+        </div>
+        <a href="#preview-slide" class="slider__control slider__control_preview"><i class="fas fa-chevron-left"></i></a>
+        <a href="#pnext-slide" class="slider__control slider__control_next"><i class="fas fa-chevron-right"></i></a>
+    </div>
+    <div class="container single__product-info">
+        <div class="single__product-collection">WOMEN COLLECTION</div>
+        <h2 class="single__product-header">Moschino Cheap And Chic</h2>
+        <div class="single__product-raiting">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <div class="single__product-text">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </div>
+        <div class="single__product-header-props">
+            <div class="single__product-header-prop"><span>MATERIAL:</span> COTTON</div>
+            <div class="single__product-header-prop"><span>DESIGNER:</span> BINBURHAN</div>
+        </div>
+        <div class="single__product-price">
+            $561
+        </div>
+        <div class="single__product-add">
+            <div class="single__product-options">
+                <div class="single__product-option">
+                    <h4 class="product-option__header">CHOOSE COLOR</h4>
+                    <div class="input-custom_color">
+                        <div class="input-custom__set-color" style="background-color:#DD0000"></div>
+                        <select class="input-custom" onchange="this.parentNode.querySelector('.input-custom__set-color').setAttribute('style','background-color:'+this.value)">
+                            <option value="#DD0000">Red</option>
+                            <option value="#DDDD00">Yellow</option>
+                            <option value="#000000">Black</option>
+                            <option value="#00DD00">Green</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="single__product-option ">
+                    <h4 class="product-option__header">CHOOSE SIZE</h4>
+                    <select class="input-custom">
+                        <option value="">XXS</option>
+                        <option value="">XS</option>
+                        <option value="">S</option>
+                        <option value="">M</option>
+                    </select>
+                </div>
+                <div class="single__product-option">
+                    <h4 class="product-option__header">QUANTITY</h4>
+                    <input type="number" min="1" value="1" class="input-custom" required>
+                </div>
+            </div>
+            <button type="submit" class="single__product-add2cart btn"><img src="img/add2cart_pink.svg" alt="">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<section class="single__like-products like-products fetured container">
+    <h3 class="like-products__header">you may like also</h3>
+    <div class="fetured__products">
+        //= units/one-product.html
+        //= units/one-product.html
+        //= units/one-product.html
+        //= units/one-product.html
+    </div>
+</section>
+
+//= units/footer.html

@@ -1,18 +1,26 @@
 nav {
-  ul.menu {
+  .menu {
     display:flex;
     justify-content: center;
     align-items: center;
-    li {
+    .menu_list {
+      position:relative;
       display:block;
-      a {
+      > a {
+        display:block;
         height:51px;
         line-height:51px;
-        color: #222222;
         font-size: 14px;
         text-transform: uppercase;
         padding:0 20px;
         font-weight: 700;
+      }
+    }
+    .menu_list:hover {
+      .dropdown {
+        top: 43px;
+        display: block;
+        opacity: 1;
       }
     }
   }

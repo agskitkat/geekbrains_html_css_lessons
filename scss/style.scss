@@ -5,8 +5,13 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    footer {
+        margin-top: auto;
+    }
 }
 
 $c_pink: #f16d7f;
@@ -16,9 +21,19 @@ $c_bg_banner: #e8e8e8;
 $c_placeholder: #a4a4a4;
 $c_offer_bg: #dadad2;
 $c_sale_bg: #222224;
+$c_stars: #e4af48;
+
+a{
+    color:$c_black;
+    text-decoration: none;
+    transition: color ease-in-out .1s;
+}
+a:hover {
+    color:$c_pink;
+}
 
 .btn {
-
+    cursor: pointer;
     background-color: #f16d7f;
     line-height: 48px;
     font-size: 15px;
@@ -29,9 +44,39 @@ $c_sale_bg: #222224;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    border:1px solid #f16d7f;
+    transition: all ease 0.2s;
     img {
         margin-left:9px;
     }
+}
+.btn:hover {
+    color:#f16d7f;
+    background-color: #FFF;
+}
+
+.btn.btn-w {
+    color: #4a4a4a;
+    border: 1px solid #eaeaea;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #FFF;
+    transition: all ease-in-out 0.1s;
+}
+
+.btn.btn-w:hover {
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
+}
+
+.btn.btn-small {
+    height: 35px;
+    padding: 12px 12px;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .container {
@@ -47,8 +92,70 @@ $c_sale_bg: #222224;
     align-items: center;
 }
 
+
+.input-custom {
+    height: 35px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #bcbcbc;
+    padding:0px 10px;
+}
+.input-custom::placeholder {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #bcbcbc;
+}
+.input-custom_color {
+    position:relative;
+    .input-custom {
+        padding-left:30px;
+    }
+}
+.input-custom_color .input-custom__set-color{
+    position:absolute;
+    top: 28px;
+    left: 16px;
+    content:'';
+    display:block;
+    width:12px;
+    height:12px;
+    background-color: #2f2f2f;
+}
+
+.fieldset-custom {
+    width:100%;
+    display:block;
+    border:none;
+    padding-bottom:23px;
+    label {
+        display:block;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12px;
+        text-transform: uppercase;
+        padding-bottom:16px;
+    }
+    .input-custom {
+        width:100%;
+    }
+}
+
+fieldset.radio {
+    width:100%;
+    display:block;
+    border:none;
+    padding-bottom:23px;
+}
+
 @import "lib/fontawesome";
 @import "styles/header";
+@import "styles/dropdown";
 @import "styles/menu";
 @import "styles/banner";
 @import "styles/offers";
@@ -56,3 +163,25 @@ $c_sale_bg: #222224;
 @import "styles/sale";
 @import "styles/subscribe";
 @import "styles/footer";
+@import "styles/style_checkbox";
+@import "styles/tab";
+
+@import "styles/slider";
+
+@import "styles/product_navigation";
+@import "styles/product__layout";
+@import "styles/product__sub-navigations";
+@import "styles/product__filters";
+@import "styles/product__sorts";
+@import "styles/product__lead";
+
+
+@import "styles/single__like-products";
+@import "styles/single__product";
+
+
+
+@import "styles/shopping-cart";
+
+
+@import "styles/checkout";

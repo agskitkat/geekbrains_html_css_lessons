@@ -5,6 +5,7 @@ var scss = require('gulp-sass');
 var clean = require('gulp-clean');
 var concat = require('gulp-concat');
 var minifyCSS = require('gulp-minify-css');
+var rigger = require('gulp-rigger');
 
 gulp.task('scss', function () {
         gulp.src(['scss/*.scss'])
@@ -23,11 +24,23 @@ gulp.task('scss:watch', function () {
 });
 
 
+// Build HTML files
+gulp.task('html', function () {
+    gulp.src(['html/*.html'])
+        .pipe(rigger())
+        .pipe(gulp.dest(''));
+});
+gulp.task('html:watch', function () {
+    gulp.watch(['html/*.html','html/*/*.html'], ['html']);
+});
+
+
+
 gulp.task('clean', function() {
     return gulp.src(['css'], {read: false})
         .pipe(clean());
 });
 
 gulp.task('default', ['clean'], function() {
-    gulp.start('scss:watch', 'scss');
+    gulp.start('scss:watch', 'html:watch', 'scss', 'html');
 });
